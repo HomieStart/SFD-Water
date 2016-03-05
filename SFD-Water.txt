@@ -18,8 +18,8 @@
 	//		you musy copy the content of OnStartUp after of "{" and before of "}"
 	//				in you OnStartUp Method
 	public void OnStartup(){
-		//Game.RunCommand("/MSG XHomie Water function v1.2");
 		// </COPY>
+		//Game.RunCommand("/MSG XHomie Water function v1.2");
 		if(XHW==null){XHW=new XHWaterMod();}XHW.Start();	
 		//</COPY>	
 	}
